@@ -1,0 +1,14 @@
+{
+  "name": "playwright_pom_cli",
+  "version": "1.0.0",
+  "description": "Playwright Page Object Model framework for Sauce Demo login (data-driven)",
+  "scripts": {
+    "test": "playwright test",
+    "test:login": "playwright test tests/login.spec.js --project=chromium"
+  },
+  "keywords": ["playwright", "pom", "saucedemo"],
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.50.0"
+  }
+}
